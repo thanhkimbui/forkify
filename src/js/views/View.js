@@ -40,7 +40,6 @@ export default class View {
 
       // Update changed ATTRIBUTES
       if (!newElement.isEqualNode(curElement)) {
-        console.log(Array.from(newElement.attributes));
         Array.from(newElement.attributes).forEach(attr => {
           curElement.setAttribute(attr.name, attr.value);
         });
