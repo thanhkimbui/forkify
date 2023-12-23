@@ -3,9 +3,10 @@
   "source": "index.html",
   "version": "1.0.0",
   "description": "Recipe Application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Kim Bui",
   "license": "ISC",
